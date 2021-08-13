@@ -5,6 +5,8 @@ import { Heading, Text } from '@chakra-ui/react';
 import styles from 'styles/Home.module.css';
 import Link from 'next/link';
 import { Button } from 'react-bootstrap';
+import Welcome from 'components/class-components/6.ClassComponents/Welcome';
+import DataFetching from 'components/api-calls/DataFetching';
 
 // import '@fontsource/poppins';
 
@@ -18,13 +20,12 @@ export default function Home() {
 
       {/* <main className={styles.main}> */}
       <Card className="text-center p-3">
-        <Heading color="brand.700">Classes Page</Heading>
+        <Heading color="brand.700">API Calls Page</Heading>
         <Text>Hello Bro</Text>
-
-        {/* <Button>idk</Button> */}
-        <Button>
-          <Link href="/">Home Page</Link>
-        </Button>
+        <Button href="/">Visit Home Page</Button>
+      </Card>
+      <Card className="p-3 m-3 text-center">
+        <DataFetching />
       </Card>
     </div>
   );

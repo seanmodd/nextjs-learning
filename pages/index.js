@@ -22,8 +22,8 @@ export default function Home() {
         <Text>Hello Bro</Text>
 
         {/* <Button>idk</Button> */}
-        <Button className="btn-lg btn-secondary">
-          <Link href="/classes">Classes</Link>
+        <Button className="btn-lg btn-secondary" href="/apicall">
+          API Calls
         </Button>
         <div className="d-inline p-2">
           <Button className="w-25 p-3 m-2 bg-secondary">here</Button>
