@@ -17,7 +17,7 @@ const mytheme = extendTheme({
       },
       // styles for the `a`
       a: {
-        color: 'teal.500',
+        // color: 'teal.500',
         _hover: {
           textDecoration: 'underline',
         },
@@ -95,5 +95,5 @@ const colors = {
 
 export const theme = extendTheme({
   fonts,
-  colors,
+  // colors,
 });

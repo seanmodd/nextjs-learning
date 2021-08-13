@@ -22,9 +22,17 @@ export default function Home() {
         <Text>Hello Bro</Text>
 
         {/* <Button>idk</Button> */}
-        <Button>
-          <Link href="/classes">Click Me</Link>
+        <Button className="btn-lg btn-secondary">
+          <Link href="/classes">Classes</Link>
         </Button>
+        <div className="d-inline p-2">
+          <Button className="w-25 p-3 m-2 bg-secondary">here</Button>
+          <Button className="w-25 p-3 m-2 bg-success">here</Button>
+          <Button className="w-25 p-3 m-2 bg-danger">here</Button>
+          <Button className="w-25 p-3 m-2 bg-warning text-dark">here</Button>
+          <Button className="w-25 p-3 m-2 bg-dark">here</Button>
+          <Button className="w-25 p-3 m-2 bg-light text-dark">here</Button>
+        </div>
       </Card>
     </div>
   );
