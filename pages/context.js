@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { Button } from 'react-bootstrap';
 import Welcome from 'components/class-components/6.ClassComponents/Welcome';
 import DataFetching from 'components/api-calls/DataFetching';
+import MyContextHook from 'components/context-hook/MyContextHook';
 
 // import '@fontsource/poppins';
 
@@ -20,12 +21,12 @@ export default function Home() {
 
       {/* <main className={styles.main}> */}
       <Card className="text-center p-3 d-flex justify-content-center align-items-center">
-        <Heading color="brand.700">API Calls Page</Heading>
+        <Heading color="brand.700">Context Hook Page</Heading>
         <Text>Hello Bro</Text>
         <Button href="/">Visit Home Page</Button>
 
         <Card className="text-center p-3 w-50 m-2 d-flex justify-content-center align-items-center">
-          <DataFetching />
+          <MyContextHook />
         </Card>
       </Card>
     </div>

@@ -26,9 +26,9 @@ const DataFetching = () => {
   }, [idFromButtonClick]);
 
   return (
-    <div>
+    <div className="w-50">
       <Heading>Here</Heading>
-      <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
+      <Input type="text" value={id} onChange={(e) => setId(e.target.value)} />
       <button type="button" onClick={handleClick}>
         {' '}
         Fetch Post{' '}
