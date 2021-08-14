@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { Button } from 'react-bootstrap';
 import Welcome from 'components/class-components/6.ClassComponents/Welcome';
 import DataFetching from 'components/api-calls/DataFetching';
-import MyContextHook from 'components/context-hook/MyContextHook';
 import AppComponent from 'components/context-hook/AppComponent';
 
 // import '@fontsource/poppins';

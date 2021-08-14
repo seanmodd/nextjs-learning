@@ -8,7 +8,7 @@ import { Button } from 'react-bootstrap';
 import Welcome from 'components/class-components/6.ClassComponents/Welcome';
 import DataFetching from 'components/api-calls/DataFetching';
 import MyContextHook from 'components/context-hook/MyContextHook';
-import AppComponent from 'components/reducer-hook/AppComponent';
+import CounterOne from 'components/reducer-hook/CounterOne';
 
 // import '@fontsource/poppins';
 
@@ -21,13 +21,13 @@ export default function Home() {
       </Head>
 
       {/* <main className={styles.main}> */}
-      <Card className="text-center p-3 d-flex justify-content-center align-items-center">
+      <Card className="text-center p-5 m-5 d-flex justify-content-center align-items-center">
         <Heading color="brand.700">Reducer Hook Page</Heading>
         <Text>Hello Bro</Text>
         <Button href="/">Visit Home Page</Button>
 
-        <Card className="text-center p-3 m-2 d-flex justify-content-center align-items-center">
-          <AppComponent />
+        <Card className="text-center p-3 m-5 d-flex justify-content-center align-items-center">
+          <CounterOne />
         </Card>
       </Card>
     </div>
