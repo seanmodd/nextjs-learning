@@ -5,7 +5,9 @@ const MyContextHook = () => {
   const [sample, setSample] = useState('');
   return (
     <>
-      <Heading fontSize="md">Here is my Context Hook.</Heading>
+      <Heading m={5} fontSize="md">
+        MyContextHook
+      </Heading>
     </>
   );
 };

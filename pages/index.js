@@ -30,6 +30,9 @@ export default function Home() {
           <Button className="btn-lg w-50 m-1 btn-primary" href="/context">
             Context Hook
           </Button>
+          <Button className="btn-lg w-50 m-1 btn-primary" href="/reducer">
+            Reducer Hook
+          </Button>
           <div className="d-table p-2">
             <Button className="w-5 p-3 m-2 bg-secondary">here</Button>
             <Button className="w-5 p-3 m-2 bg-success">here</Button>
