@@ -16,6 +16,29 @@ body {
   color: #ff0000;
   font-family: "Poppins";
 }
+.borders { 
+  border-width: 5px;
+  border-color: #7e7e7e;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+.sub-borders { 
+  border-width: 2px;
+  border-color: #7e7e7eb2;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 10px;
+  
+}
+.sub-sub-borders { 
+  border-width: 1px;
+  border-color: #7e7e7e44;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 10px;
+  
+}
 
 a {
   color: inherit;
