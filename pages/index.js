@@ -11,12 +11,6 @@ import { Button } from 'react-bootstrap';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      {/* <main className={styles.main}> */}
       <Card className="text-center p-3">
         <Heading color="brand.700">Welcome to nextjs</Heading>
         <Text>Hello Bro</Text>
@@ -33,16 +27,14 @@ export default function Home() {
           <Button className="btn-lg w-50 m-1 btn-primary" href="/reducer">
             Reducer Hook
           </Button>
-          <Button className="btn-lg w-50 m-1 btn-primary" href="/reducer-with-context">
+          <Button
+            className="btn-lg w-50 m-1 btn-primary"
+            href="/reducer-with-context"
+          >
             Reducer with Context
           </Button>
-          <div className="d-table p-2">
-            <Button className="w-5 p-3 m-2 bg-secondary">here</Button>
-            <Button className="w-5 p-3 m-2 bg-success">here</Button>
-            <Button className="w-5 p-3 m-2 bg-danger">here</Button>
-            <Button className="w-5 p-3 m-2 bg-warning text-dark">here</Button>
-            <Button className="w-5 p-3 m-2 bg-dark">here</Button>
-            <Button className="w-5 p-3 m-2 bg-light text-dark">here</Button>
+          <div className="d-flex p-2 justify-content-center">
+            <Button className="w-5 p-3 m-2 bg-dark">Samble Button again</Button>
           </div>
         </div>
       </Card>
