@@ -1,3 +1,4 @@
+
 const { Heading, Text } = require('@chakra-ui/react')
 const { default: ComponentF } = require('./ComponentF')
 
